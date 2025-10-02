@@ -1,0 +1,581 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>E-COMMERCE</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css">
+    <link rel="stylesheet" href="e-commerce.css">
+</head>
+<body>
+    <header>
+        <nav class="navbar section-content">
+             <a href="#" class="nav-logo">
+                <h2 class="logo-text">Pet Shop</h2>
+            <ul class="nav-menu">
+                <button id="menu-close-button" class="fas fa-times"></button>
+                    
+                </menu>
+                <li class="nav-item">
+                    <a href="#" class="nav-link">Home</a>
+                </li>
+
+                <li class="nav-item">
+                    <a href="#model" class="nav-link">Model</a>
+                </li>
+                <li class="nav-item">
+                    <a href="#testemonials" class="nav-link">About</a>
+                </li>
+                </li>
+                <li class="nav-item">
+                    <a href="#contact" class="nav-link">Contact</a>
+                </li>
+                   <li class="nav-item">
+
+                    <a href="#" class="nav-link">Services</a>
+
+                </li>
+                        <li class="nav-item"><a href="#Select" class="nav-link">Cart (<span id="cart-count">0</span>)</a></li>
+                        <li class="nav-item">
+                    <a href="Rate.html" class="nav-link">Rate us?</a>
+                    </li>
+            </ul>
+            <button id="menu-open-button" class="fas fa-bars"></button>
+        </nav>
+    </header>
+
+    <main>
+        <!--hero section-->
+        <section class="hero-section">
+        <div class="section-content">
+            <div class="hero-details">
+                <h1 class="title">Pet Shop</h1>
+                <h4 class="subtitle">Punuin ng saya ang inyong araw!!!</h4>
+                <p class="description">Welcome sa aming Pet Shop puno-ng magagandang alagang hayop .</p>
+
+                <div class="buttons">
+                    <a href="#about" class="button addTocart-now">Welcome</a>
+                    <a href="login.html" class="button contact-us">SignIn now</a>
+                </div>
+            </div>
+            <div class="hero-image-wrapper">
+                <img src="Test01.jpeg" alt="Hero" class="hero-image">
+            </div>
+        </div>
+    </section>
+
+    <section class="about-section" id="about">
+
+
+
+        <div class="section-content">
+            <div class="about-image-wrapper">
+                <img src="Test01.jpeg" alt="About" class="about-image">
+            </div>
+            <div class="about-details">
+                <h2 class="section-title">Introduction</h2>
+                <p class="disc">Ang pet Shop ay isang tindahan na nag aalok ng ibat ibang klase ng mga hayop, nag bibigay ng magandang binipisyu para sa mga tao tulad ng pag papawala ng stress sa atin at iba pa  .</p>
+             
+
+                     <div class="social-link-list">
+                        
+                        
+                        <a href="#" class="social-link"><i  class="fa-brands fa-facebook"></i></a>
+                        <a href="#" class="social-link"><i  class="fa-brands fa-instagram"></i></a>
+                        <a href="#" class="social-link"><i  class="fa-brands fa-x-twitter"></i></a>
+                     </div>
+            </div>
+        </div>
+    </section>
+    <!--model section-->
+     <section class="model-section" id="model">
+        <h2 class="section-title">Dog Section</h2>
+        <div class="section-content">
+            <ul class="model-list">
+
+                <li class="model-item">
+                    <img src="Test0.jpeg" alt="Maltese Dog" class="model-image">
+                    <p class="price">P299.99</p>
+        <button class="btn" onclick="addToCart('Maltese', 299.99)">Add to Cart</button>
+                    <h3 class="name">Maltese Dog</h3>
+                    <p class="disc">Synchronization of data refers to the process of integrating data from several sources, applications,
+                         and devices while ensuring that the data remain consistent. 
+                         It is a process that is always going on, both for new data and old data.</p>   
+                </li>
+                <li class="model-item">
+                    <img src="Test1.jpeg" alt="Dog" class="model-image">
+                    <p class="price">P299.99</p>
+        <button class="btn" onclick="addToCart(K9, 299.99)">Add to Cart</button>
+                    <h3 class="name">K9</h3>
+                    <p class="text">Synchronization of data refers to the process of integrating data from several sources, applications,
+                         and devices while ensuring that the data remain consistent. 
+                         It is a process that is always going on, both for new data and old data.</p>   
+                </li>
+                <li class="model-item">
+                    <img src="Test2.jpeg" alt="Dog" class="model-image">
+                    <p class="price">P299.99</p>
+        <button class="btn" onclick="addToCart('Labrador', 299.99)">Add to Cart</button>
+                    <h3 class="name">Labrador Retriever</h3>
+                    <p class="text">Synchronization of data refers to the process of integrating data from several sources, applications,
+                         and devices while ensuring that the data remain consistent. 
+                         It is a process that is always going on, both for new data and old data.</p>   
+                </li>
+                <li class="model-item">
+                    <img src="Test3.jpeg" alt="Dog" class="model-image">
+                    <p class="price">P299.99</p>
+        <button class="btn" onclick="addToCart('Retriever', 299.99)">Add to Cart</button>
+                    <h3 class="name">Golden Retriever Puppy</h3>
+                    <p class="text">Synchronization of data refers to the process of integrating data from several sources, applications,
+                         and devices while ensuring that the data remain consistent. 
+                         It is a process that is always going on, both for new data and old data.</p>   
+                </li>
+                <li class="model-item">
+                    <img src="Test4.jpeg" alt="Dog" class="model-image">
+                    <p class="price">P299.99</p>
+        <button class="btn" onclick="addToCart('Mini Labradoodle', 299.99)">Add to Cart</button>
+                    <h3 class="name">Mini Labradoodle Dog Breed</h3>
+                    <p class="text">Synchronization of data refers to the process of integrating data from several sources, applications,
+                         and devices while ensuring that the data remain consistent. 
+                         It is a process that is always going on, both for new data and old data.</p>   
+                </li>
+                <li class="model-item">
+                    <img src="Test5.jpeg" alt="Dog" class="model-image">
+                    <p class="price">P299.99</p>
+        <button class="btn" onclick="addToCart('Beagle', 299.99)">Add to Cart</button>
+                    <h3 class="name">Beagle</h3>
+                    <p class="text">Synchronization of data refers to the process of integrating data from several sources, applications,
+                         and devices while ensuring that the data remain consistent. 
+                         It is a process that is always going on, both for new data and old data.</p>   
+                </li>
+            </ul>
+        </div>
+     </section>
+         <!--Model section-->
+     <section class="model-section" id="model">
+        <h2 class="section-title">Bird Section</h2>
+        <div class="section-content">
+            <ul class="model-list">
+
+                <li class="model-item">
+                    <img src="Testing.jpeg" alt="Bird" class="model-image">
+                    <p class="price">P299.99</p>
+        <button class="btn" onclick="addToCart('Warbler', 299.99)">Add to Cart</button>
+                    <h3 class="name">Warbler</h3>
+                    <p class="text">Synchronization of data refers to the process of integrating data from several sources, applications,
+                         and devices while ensuring that the data remain consistent. 
+                         It is a process that is always going on, both for new data and old data.</p>   
+                </li>
+                <li class="model-item">
+                    <img src="Testing1.jpeg" alt="Bird" class="model-image">
+                    <p class="price">P299.99</p>
+        <button class="btn" onclick="addToCart('Alabama', 299.99)">Add to Cart</button>
+                    <h3 class="name">Alabama</h3>
+                    <p class="text">Synchronization of data refers to the process of integrating data from several sources, applications,
+                         and devices while ensuring that the data remain consistent. 
+                         It is a process that is always going on, both for new data and old data.</p>   
+                </li>
+                <li class="model-item">
+                    <img src="Testing2.jpeg" alt="Bird" class="model-image">
+                    <p class="price">P299.99</p>
+        <button class="btn" onclick="addToCart('Parrot Native', 299.99)">Add to Cart</button>
+
+                    <h3 class="name">Parrot Native</h3>
+                    <p class="text">Synchronization of data refers to the process of integrating data from several sources, applications,
+                         and devices while ensuring that the data remain consistent. 
+                         It is a process that is always going on, both for new data and old data.</p>   
+                </li>
+                <li class="model-item">
+                    <img src="Testing3.jpeg" alt="Bird" class="model-image">
+                    <p class="price">P299.99</p>
+        <button class="btn" onclick="addToCart('Blue Jay', 299.99)">Add to Cart</button>
+                    <h3 class="name">Blue Jay</h3>
+                    <p class="text">Synchronization of data refers to the process of integrating data from several sources, applications,
+                         and devices while ensuring that the data remain consistent. 
+                         It is a process that is always going on, both for new data and old data.</p>   
+                </li>
+                <li class="model-item">
+                    <img src="Testing4.jpeg" alt="bvlgi bracelet" class="model-image">
+                                         <p class="price">P299.99</p>
+        <button class="btn" onclick="addToCart('Rosy-Collared lovebird', 299.99)">Add to Cart</button>
+                    <h3 class="name">Rosy-Collared lovebird</h3>
+                    <p class="text">Synchronization of data refers to the process of integrating data from several sources, applications,
+                         and devices while ensuring that the data remain consistent. 
+                         It is a process that is always going on, both for new data and old data.</p>   
+                </li>
+                <li class="model-item">
+                    <img src="Testing5.jpeg" alt="Bird" class="model-image">
+                     <p class="price">P299.99</p>
+        <button class="btn" onclick="addToCart('Gouldian finch', 299.99)">Add to Cart</button>
+                    <h3 class="name">Gouldian finch</h3>
+                    <p class="text">Synchronization of data refers to the process of integrating data from several sources, applications,
+                         and devices while ensuring that the data remain consistent. 
+                         It is a process that is always going on, both for new data and old data.</p>   
+                </li>
+            </ul>
+        </div>
+     </section>
+         <!--Acessoreis Pet section-->
+     <section class="model-section" id="model">
+        <h2 class="section-title">Bird Accessories Section</h2>
+        <div class="section-content">
+            <ul class="model-list">
+
+                <li class="model-item">
+                    <img src="Images0.jpeg" alt="Bird Acessories" class="model-image">
+                    <p class="price">P499.99</p>
+        <button class="btn" onclick="addToCart('Swing', 499.99)">Add to Cart</button>
+                    <h3 class="name">Swing</h3>
+                    <p class="text">Synchronization of data refers to the process of integrating data from several sources, applications,
+                         and devices while ensuring that the data remain consistent. 
+                         It is a process that is always going on, both for new data and old data.</p>   
+                </li>
+                <li class="model-item">
+                    <img src="Images1.jpeg" alt="Bird" class="model-image">
+                    <p class="price">P499.99</p>
+        <button class="btn" onclick="addToCart('Cage', 499.99)">Add to Cart</button>
+                    <h3 class="name">Bird Cage</h3>
+                    <p class="text">Synchronization of data refers to the process of integrating data from several sources, applications,
+                         and devices while ensuring that the data remain consistent. 
+                         It is a process that is always going on, both for new data and old data.</p>   
+                </li>
+                <li class="model-item">
+                    <img src="Images2.jpeg" alt="Bird" class="model-image">
+                       <p class="price">P499.99</p>
+        <button class="btn" onclick="addToCart('Hoodie', 499.99)">Add to Cart</button>
+                    <h3 class="name">Bird Hoodie</h3>
+                    <p class="text">Synchronization of data refers to the process of integrating data from several sources, applications,
+                         and devices while ensuring that the data remain consistent. 
+                         It is a process that is always going on, both for new data and old data.</p>   
+                </li>
+                <li class="model-item">
+                    <img src="Images3.jpeg" alt="Bird" class="model-image">
+                    <p class="price">P499.99</p>
+        <button class="btn" onclick="addToCart('Perches', 499.99)">Add to Cart</button>
+                    <h3 class="name">Perches Stand</h3>
+                    <p class="text">Synchronization of data refers to the process of integrating data from several sources, applications,
+                         and devices while ensuring that the data remain consistent. 
+                         It is a process that is always going on, both for new data and old data.</p>   
+                </li>
+                <li class="model-item">
+                    <img src="Images4.jpeg" alt="Bird" class="model-image">
+                    <p class="price">P499.99</p>
+        <button class="btn" onclick="addToCart('Bird Carrier', 499.99)">Add to Cart</button>
+                    <h3 class="name">Bird Carrier Backpack</h3>
+                    <p class="text">Synchronization of data refers to the process of integrating data from several sources, applications,
+                         and devices while ensuring that the data remain consistent. 
+                         It is a process that is always going on, both for new data and old data.</p>   
+                </li>
+                <li class="model-item">
+                    <img src="Images5.jpeg" alt="Bird" class="model-image">
+                    <p class="price">P499.99</p>
+        <button class="btn" onclick="addToCart('Bird feeder', 499.99)">Add to Cart</button>
+                    <h3 class="name">Bird Seed feeder</h3>
+                    <p class="text">Synchronization of data refers to the process of integrating data from several sources, applications,
+                         and devices while ensuring that the data remain consistent. 
+                         It is a process that is always going on, both for new data and old data.</p>   
+                </li>
+            </ul>
+        </div>
+     </section>
+         <!--Dog section-->
+     <section class="model-section" id="model">
+        <h2 class="section-title">Dog Section Accessories</h2>
+        <div class="section-content">
+            <ul class="model-list">
+
+                <li class="model-item">
+                    <img src="1.jpeg" alt="Dog" class="model-image">
+                    <p class="price">P599.99</p>
+        <button class="btn" onclick="addToCart('Dog Boots', 599.99)">Add to Cart</button>
+                    <h3 class="name">Dog Boots</h3>
+                    <p class="text">Synchronization of data refers to the process of integrating data from several sources, applications,
+                         and devices while ensuring that the data remain consistent. 
+                         It is a process that is always going on, both for new data and old data.</p>   
+                </li>
+                <li class="model-item">
+                    <img src="2.jpeg" alt="Dog" class="model-image">
+                    <p class="price">P599.99</p>
+        <button class="btn" onclick="addToCart('Dog Clote, 599.99)">Add to Cart</button>
+                    <h3 class="name">Dog Clote</h3>
+                    <p class="text">Synchronization of data refers to the process of integrating data from several sources, applications,
+                         and devices while ensuring that the data remain consistent. 
+                         It is a process that is always going on, both for new data and old data.</p>   
+                </li>
+                <li class="model-item">
+                    <img src="3.jpeg" alt="Dog" class="model-image">
+                   <p class="price">P599.99</p>
+      <button class="btn" onclick="addToCart('Dog Muzzle', 599.99)">Add to Cart</button>
+                    <h3 class="name">Dog Muzzle</h3>
+                    <p class="text">Synchronization of data refers to the process of integrating data from several sources, applications,
+                         and devices while ensuring that the data remain consistent. 
+                         It is a process that is always going on, both for new data and old data.</p>   
+                </li>
+                <li class="model-item">
+                    <img src="4.jpeg" alt="Dog" class="model-image">
+                   <p class="price">P599.99</p>
+      <button class="btn" onclick="addToCart('Dog Carrier bag', 599.99)">Add to Cart</button>
+                    <h3 class="name">Dog Carrier Bag</h3>
+                    <p class="text">Synchronization of data refers to the process of integrating data from several sources, applications,
+                         and devices while ensuring that the data remain consistent. 
+                         It is a process that is always going on, both for new data and old data.</p>   
+                </li>
+                <li class="model-item">
+                    <img src="5.jpeg" alt="Dog" class="model-image">
+                   <p class="price">P599.99</p>
+      <button class="btn" onclick="addToCart('Dog bed ', 599.99)">Add to Cart</button>
+                    <h3 class="name">Dog Bed</h3>
+                    <p class="text">Synchronization of data refers to the process of integrating data from several sources, applications,
+                         and devices while ensuring that the data remain consistent. 
+                         It is a process that is always going on, both for new data and old data.</p>   
+                </li>
+                <li class="model-item">
+                    <img src="6.jpeg" alt="Dog" class="model-image">
+                     <p class="price">P599.99</p>
+      <button class="btn" onclick="addToCart('Dog Collar', 599.99)">Add to Cart</button>
+                    <h3 class="name">Dog Collar</h3>
+                    <p class="text">Synchronization of data refers to the process of integrating data from several sources, applications,
+                         and devices while ensuring that the data remain consistent. 
+                         It is a process that is always going on, both for new data and old data.</p>   
+                </li>
+            </ul>
+        </div>
+     </section>
+    <!--Benefits section-->
+
+     <section class="model-section" id="model">
+
+        <h2 class="section-title">Pet Benefits Section</h2>
+        <div class="section-content">
+            <ul class="model-list">
+
+                <li class="model-item">
+                    <img src="P1.jpeg" alt="Dog" class="model-image">
+                   <p class="price">P999.99</p>
+      <button class="btn" onclick="addToCart('Bird', 999.99)">Add to Cart</button>
+                    <h3 class="name">Dog hair Cut</h3>
+                    <p class="text">Synchronization of data refers to the process of integrating data from several sources, applications,
+                         and devices while ensuring that the data remain consistent. 
+                         It is a process that is always going on, both for new data and old data.</p>   
+                </li>
+                <li class="model-item">
+                    <img src="P2.jpeg" alt="Dog" class="model-image">
+                 <p class="price">P999.99</p>
+      <button class="btn" onclick="addToCart('Dog', 999.99)">Add to Cart</button>
+                    <h3 class="name">Free Massage</h3>
+                    <p class="text">Synchronization of data refers to the process of integrating data from several sources, applications,
+                         and devices while ensuring that the data remain consistent. 
+                         It is a process that is always going on, both for new data and old data.</p>   
+                </li>
+                <li class="model-item">
+                    <img src="P3.jpeg" alt="Bird" class="model-image">
+                    <p class="price">P999.99</p>
+      <button class="btn" onclick="addToCart('Bird', 999.99)">Add to Cart</button>
+                    <h3 class="name">free Manicore </h3>
+                    <p class="text">Synchronization of data refers to the process of integrating data from several sources, applications,
+                         and devices while ensuring that the data remain consistent. 
+                         It is a process that is always going on, both for new data and old data.</p>   
+                </li>
+                <li class="model-item">
+                    <img src="P4.jpeg" alt="Bird" class="model-image">
+                    <p class="price">P999.99</p>
+      <button class="btn" onclick="addToCart('Bird', 999.99)">Add to Cart</button>
+                    <h3 class="name">free Medicine</h3>
+                    <p class="text">Synchronization of data refers to the process of integrating data from several sources, applications,
+                         and devices while ensuring that the data remain consistent. 
+                         It is a process that is always going on, both for new data and old data.</p>   
+                </li>
+                <li class="model-item">
+                    <img src="P6.jpeg" alt="Dog" class="model-image">
+  <p id="price">P999.99</p>
+      <button class="btn" onclick="addToCart('Dog', 999.99)">Add to Cart</button>
+                    <h3 class="name">Free Photograph</h3>
+                    <p class="text">Synchronization of data refers to the process of integrating data from several sources, applications,
+                         and devices while ensuring that the data remain consistent. 
+                         It is a process that is always going on, both for new data and old data.</p>   
+                </li>
+                <li class="model-item">
+                    <img src="P7.jpeg" alt="Bird" class="model-image">
+  <p id="total-price">P999.99</p>
+      <button class="btn" onclick="addToCart('Bird', 999.99)">Add to Cart</button>
+                    <h3 class="name">Free traning</h3>
+                    <p class="text">Synchronization of data refers to the process of integrating data from several sources, applications,
+                         and devices while ensuring that the data remain consistent. 
+                         It is a process that is always going on, both for new data and old data.</p>   
+                </li>
+            </ul>
+        </div>
+     </section>
+
+
+     <!--gallery section-->
+     <section class="gallery-section" id="Select">
+        <h2 class="section-title">Selected Items</h2>
+        <center>
+            <div id="selected-Pet shop">
+      <h3>Selected Pet Shop:</h3>
+      <ul id="cart-list"></ul>
+    </div>
+    <h3>Total Price: P<span id="total-price">0.00</span></h3>
+    <button class="btn" onclick="checkout()">Buy</button>
+    </center>
+     </section>
+
+ <!---About Section-->
+
+
+              <!--Testeminials-->
+     <section class="testemonials-section" id="testemonials">
+
+        <h2 class="section-title">About us</h2>
+        <div class="section-content">
+            <div class="slider-container swiper">
+                <div class="slider-wrapper">
+                    <ul class="testemonial-list swiper-wrapper">
+
+                        <li class="testemonial swiper-slide">
+                            <img src="Bandot.jpeg" alt="User" class="user-images">
+                            <h3 class="name">Brandy Beynon</h3>
+                            <i class="feedback">(project,leader,designer,coder)</i>
+                            </li>
+
+                            <li class="testemonial swiper-slide">
+                                <img src="Bandot.jpeg" alt="User" class="user-image">
+                                <h3 class="name">Brandy Beynon</h3>
+                                <i class="feedback">(project manager,assistant,designer,coder)</i>
+                                </li>
+
+                                <li class="testemonial swiper-slide">
+                                    <img src="Beay.jpeg" alt="User" class="user-image">
+                                    <h3 class="name">Beay Dauba</h3>
+                                    <i class="feedback">When it comes to businesses, having data that is out of
+                                         sync can lead to a wide variety of problems, 
+                                        such as the following:</i>
+                                    </li>
+
+                                    <li class="testemonial swiper-slide">
+                                        <img src="Aruta.jpeg" alt="User" class="user-image">
+                                        <h3 class="name">Eric Aruta</h3>
+                                        <i class="feedback">When it comes to businesses, having data that is out of
+                                             sync can lead to a wide variety of problems, 
+                                            such as the following:</i>
+                                        </li>
+
+                                        <li class=" testemonial swiper-slide">
+                                            <img src="Zeben.jpeg" alt="User" class="user-image">
+                                            <h3 class="name">Zeben Realizan</h3>
+                                            <i class="feedback">When it comes to businesses, having data that is out of
+                                                 sync can lead to a wide variety of problems, 
+                                                such as the following:</i>
+                                            </li>
+
+                                            <li class="testemonial swiper-slide">
+                                                <img src="Ginavel.jpeg" alt="User" class="user-image">
+                                                <h3 class="name">Ginavel Gillego</h3>
+                                                <i class="feedback">When it comes to businesses, having data that is out of
+                                                     sync can lead to a wide variety of problems, 
+                                                    such as the following:</i>
+                                                </li>
+                                                                     <li class="testemonial swiper-slide">
+                                                <img src="Kenneth.jpeg" alt="User" class="user-image">
+                                                <h3 class="name">Kenneth Dollendo</h3>
+                                                <i class="feedback">When it comes to businesses, having data that is out of
+                                                     sync can lead to a wide variety of problems, 
+                                                    such as the following:</i>
+                                                </li>                                                                  <li class="testemonial swiper-slide">
+                                                <img src="Crislyn.jpeg" alt="User" class="user-image">
+                                                <h3 class="name">Crislyn Dela Torre</h3>
+                                                <i class="feedback">When it comes to businesses, having data that is out of
+                                                     sync can lead to a wide variety of problems, 
+                                                    such as the following:</i>
+                                                </li> 
+                                                                       <li class="testemonial swiper-slide">
+                                                <img src="Bandot2.jpeg" alt="User" class="Test1.png">
+                                                <h3 class="name">Brandy Beynon</h3>
+                                                <i class="feedback">When it comes to businesses, having data that is out of
+                                                     sync can lead to a wide variety of problems, 
+                                                    such as the following:</i>
+                                                </li>                     
+                    </ul>
+
+                    <div class=" swiper-pagination"></div>
+                    <div class="swiper-slide-button
+                    swiper-button-prev"></div>
+                    <div class="swiper-slide-button 
+                    swiper-button-next"></div>
+
+                    
+                </div>
+            </div>
+        </div>
+     </section>
+     <!--Contact Us-->
+     <section class="contact-section" id="contact">
+        <h2 class="section-title">Contact Us</h2>
+        <div class="section-content">
+            <ul class="contact-info-list">
+                <li class="contact-info">
+                    <i class="fa-solid fa-location-crosshairs"></i>
+                    <p>Purok4 Barobaybay Northern Samar</p>
+                </li>
+                <li class="contact-info">
+                    <i class="fa-regular fa-instagram"></i>
+                    <p>PS_petshop2025</p>
+                </li>
+                <li class="contact-info">
+                    <i class="fa-regular fa-phone"></i>
+                    <p>(+63)995-9729-753</p>
+                </li>
+                <li class="contact-info">
+                    <i class="fa-regular fa-clock"></i>
+                    <p>Monday 7:00AM-8:00PM</p>
+                </li>
+                <li class="contact-info">
+                    <i class="fa-regular fa-clock"></i>
+                    <p>Wensday 9:00AM-3:00PM</p>
+            
+                <li class="contact-info">
+                    <i class="fa-regular fa-clock"></i>
+                    <p>Sunday Closed</p>
+                </li>
+                <li class="contact-info">
+                    <i class="fa-regular fa-globe"></i>
+                    <p>www.petshop.com</p>
+                </li>
+            </ul>
+
+            <form action="#" class="contact-form">
+                <input type="text" placeholder="Your name" class="form-input" required>
+                <input type="email" placeholder="Your email" class="form-input" required>
+                <textarea placeholder="Your Message"class="form-input" required></textarea>
+                <button class="submit-button">Submit</button>
+            </form>
+        </div>
+     </section> 
+
+     <!--Footer section-->
+     <footer class="footer-section">
+        <div class="section-content">
+            <p class="copyright-text">@ 2025 Pet Shop</p>
+
+            <div class="social-link-list">
+                <a href="#" class="social-link"><i  class="fa-brands fa-facebook"></i></a>
+                <a href="#" class="social-link"><i  class="fa-brands fa-instagram"></i></a>
+                 <a href="#" class="social-link"><i  class="fa-brands fa-x-twitter"></i></a>
+            </div>
+            <p class="policy-text">
+                <a href="#" class="policy-link">Privacy policy</a>
+                <span class="separator">.</span>
+                <a href="#" class="policy-link">Refund policy</a>
+            </p>
+        </div>
+     </footer>
+
+
+    </main>
+
+    <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+
+    <script src="e-commerce.js"></script>
+</body>
+</html>
